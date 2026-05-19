@@ -1,57 +1,95 @@
-🌍 Tourism Experience Analytics
+# 🌍 Tourism Experience Analytics
 
-An end-to-end Machine Learning project that predicts tourist attraction ratings, classifies visit modes, and generates personalized attraction recommendations through an interactive Streamlit dashboard.
+A complete end-to-end Machine Learning project that analyzes tourism behavior and provides:
 
-📌 Project Overview
-📖 Problem Statement
+* ⭐ Attraction Rating Prediction
+* 🧳 Visit Mode Classification
+* 🎯 Personalized Attraction Recommendations
+* 📊 Interactive Business Dashboard
 
-Tourism platforms collect large amounts of user reviews, ratings, and travel preferences, but often fail to fully leverage this data to personalize traveler experiences.
+Built using Python, Scikit-learn, XGBoost, and Streamlit.
 
-This project addresses three core business problems:
+---
 
-Predicting Attraction Ratings — Estimate the rating a user is likely to give to an attraction.
-Classifying Visit Modes — Predict whether a trip is for Business, Family, Couples, Friends, or Solo travel.
-Generating Recommendations — Recommend similar attractions based on collaborative filtering.
-🎯 Objective
+## 📌 Project Overview
 
-Build a complete data science solution that:
+### Problem Statement
 
-Cleans and preprocesses tourism datasets.
-Performs exploratory data analysis (EDA).
-Trains regression and classification models.
-Builds a recommendation engine.
-Deploys all functionality using Streamlit.
-🌐 Real-World Use Cases
-Personalized recommendations on travel websites.
-Dynamic rating prediction before booking.
-Travel segmentation for targeted marketing.
-Destination intelligence dashboards.
-✨ Key Features
-⭐ Attraction Rating Prediction
-🧳 Visit Mode Classification
-🎯 Personalized Attraction Recommendations
-📊 Exploratory Data Analysis Dashboard
-🏆 Model Performance Tracking
-📈 Feature Importance Visualization
-🌙 Professional Dark-Themed UI
-🛠️ Technology Stack
-Programming Language
-Python 3.10+
-Data Analysis
-Pandas
-NumPy
-Visualization
-Matplotlib
-Plotly
-Seaborn
-Machine Learning
-Scikit-learn
-XGBoost
-Deployment
-Streamlit
-Model Serialization
-Joblib
-📂 Project Structure
+Tourism platforms collect large volumes of user reviews, ratings, and trip information. However, they often struggle to:
+
+* Predict how users will rate attractions.
+* Understand the type of trip a user is taking.
+* Recommend attractions tailored to user preferences.
+
+### Objective
+
+This project uses machine learning to:
+
+1. Predict the rating a user is likely to give to an attraction.
+2. Classify the user's visit mode.
+3. Recommend attractions based on historical behavior.
+4. Visualize insights through a professional Streamlit dashboard.
+
+### Real-World Applications
+
+* Travel booking websites
+* Tourism recommendation systems
+* Destination marketing platforms
+* Personalized travel planning tools
+
+---
+
+# 🚀 Key Features
+
+### ⭐ Rating Prediction
+
+Predicts attraction ratings on a scale of 1 to 5.
+
+### 🧳 Visit Mode Classification
+
+Classifies trip type into:
+
+* Business
+* Family
+* Couples
+* Friends
+* Solo
+
+### 🎯 Recommendation System
+
+Provides personalized attraction recommendations using item-based collaborative filtering.
+
+### 📊 Interactive Dashboard
+
+Includes:
+
+* KPI cards
+* Prediction pages
+* Recommendation page
+* Data Explorer
+* Model Performance analytics
+
+---
+
+# 🛠️ Technology Stack
+
+| Category                | Tools Used                  |
+| ----------------------- | --------------------------- |
+| Programming Language    | Python                      |
+| Data Analysis           | Pandas, NumPy               |
+| Visualization           | Matplotlib, Seaborn, Plotly |
+| Machine Learning        | Scikit-learn, XGBoost       |
+| Recommendation System   | Cosine Similarity           |
+| Model Serialization     | Joblib                      |
+| Web App                 | Streamlit                   |
+| Development Environment | Jupyter Notebook, VS Code   |
+| Version Control         | Git, GitHub                 |
+
+---
+
+# 📂 Project Structure
+
+```text
 Tourism-Experience-Analytics/
 │
 ├── app/
@@ -59,16 +97,6 @@ Tourism-Experience-Analytics/
 │
 ├── data/
 │   ├── raw/
-│   │   ├── transaction.csv
-│   │   ├── user.csv
-│   │   ├── item.csv
-│   │   ├── city.csv
-│   │   ├── country.csv
-│   │   ├── region.csv
-│   │   ├── continent.csv
-│   │   ├── type.csv
-│   │   └── visit_mode.csv
-│   │
 │   └── processed/
 │       └── final_processed_data.csv
 │
@@ -98,242 +126,261 @@ Tourism-Experience-Analytics/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-📊 Dataset Information
-Raw Data Files
-File	Description
-transaction.csv	User transactions and ratings
-user.csv	User demographic information
-item.csv	Attraction details
-city.csv	City metadata
-country.csv	Country metadata
-region.csv	Regional metadata
-continent.csv	Continent metadata
-type.csv	Attraction type mapping
-visit_mode.csv	Visit mode labels
-Key Columns Used
-Rating
-VisitMode
-Attraction
-AttractionType
-Continent
-Region
-Country
-CityName
-VisitYear
-VisitMonth
-📓 Notebook Workflow
-1️⃣ Data Loading
-Load all raw CSV files.
-Inspect shapes and columns.
-Merge datasets.
-2️⃣ Exploratory Data Analysis
-Missing value analysis.
-Distribution plots.
-Correlation analysis.
-Business insights.
-3️⃣ Data Preprocessing
-Handle missing values.
-Feature engineering.
-Encoding.
-Save final_processed_data.csv.
-4️⃣ Regression Modeling
-Predict Rating.
-Compare Linear Regression, Random Forest, and XGBoost.
-Save best model.
-5️⃣ Classification Modeling
-Predict VisitMode.
-Compare Logistic Regression, Random Forest, and XGBoost.
-Save best model and label encoder.
-6️⃣ Recommendation System
-Build user-item matrix.
-Compute cosine similarity.
-Save recommendation artifacts.
-🤖 Machine Learning Models
-⭐ Regression Task
-Target Variable
+```
 
-Rating
+---
 
-Models Evaluated
-Linear Regression
-Random Forest Regressor
-XGBoost Regressor
-Best Model
+# 📊 Dataset Information
 
-XGBoost Regressor
+The project uses tourism-related datasets containing:
 
-Metrics
-R² Score: 0.1259
-RMSE: 0.9073
-MAE: 0.7103
-🧳 Classification Task
-Target Variable
+* User demographics
+* Attraction details
+* Ratings
+* Visit modes
+* Geographic information
 
-VisitMode
+### Important Features
 
-Models Evaluated
-Logistic Regression
-Random Forest Classifier
-XGBoost Classifier
-Best Model
+* `UserId`
+* `AttractionId`
+* `Rating`
+* `VisitMode`
+* `Continent`
+* `Region`
+* `Country`
+* `CityName`
+* `AttractionType`
+* `VisitYear`
+* `VisitMonth`
 
-Random Forest Classifier
+---
 
-Metrics
-Accuracy: 0.4790
-Precision: 0.4898
-Recall: 0.4790
-F1 Score: 0.4530 (approx.)
-🎯 Recommendation System
-Approach
+# 🔄 Project Workflow
 
-Item-based collaborative filtering using cosine similarity.
+1. Data Loading
+2. Exploratory Data Analysis (EDA)
+3. Data Preprocessing
+4. Regression Modeling
+5. Classification Modeling
+6. Recommendation System
+7. Streamlit Dashboard Development
+8. Model Performance Visualization
 
-Output
+---
 
-Top-N similar attractions for a selected attraction.
+# 🤖 Machine Learning Models
 
-💾 Saved Model Artifacts
-File	Purpose
-rating_model.pkl	Best regression model
-rating_preprocessor.pkl	Regression preprocessing pipeline
-visit_mode_model.pkl	Best classification model
-visit_mode_preprocessor.pkl	Classification preprocessing pipeline
-visit_mode_label_encoder.pkl	Decodes numeric labels
-recommender.pkl	Recommendation helper object
-item_similarity_df.pkl	Item-item similarity matrix
-user_item_matrix.pkl	User-item matrix
-📈 Metrics Files
-File	Description
-regression_metrics.json	Regression KPI metrics
-classification_metrics.json	Classification KPI metrics
-model_comparison.csv	Combined model comparison
-feature_importance.csv	Top feature importances
-🖥️ Streamlit Dashboard Modules
-🏠 Home
+## Rating Prediction (Regression)
 
-Overview dashboard with KPIs and charts.
+Models trained:
 
-⭐ Rating Prediction
+* Linear Regression
+* Random Forest Regressor
+* XGBoost Regressor
+
+**Best Model:** XGBoost Regressor
+
+### Metrics
+
+* R² Score: 0.1259
+* RMSE: 0.9073
+* MAE: 0.7103
+
+---
+
+## Visit Mode Classification
+
+Models trained:
+
+* Logistic Regression
+* Random Forest Classifier
+* XGBoost Classifier
+
+**Best Model:** Random Forest Classifier
+
+### Metrics
+
+* Accuracy: 0.4790
+* Precision: 0.4898
+* Recall: 0.4790
+* F1 Score: 0.4600 (approx.)
+
+---
+
+## Recommendation System
+
+Method used:
+
+* Item-Based Collaborative Filtering
+* Cosine Similarity
+
+Saved artifacts:
+
+* `item_similarity_df.pkl`
+* `user_item_matrix.pkl`
+* `recommender.pkl`
+
+---
+
+# 💾 Saved Model Files
+
+| File                           | Purpose                               |
+| ------------------------------ | ------------------------------------- |
+| `rating_model.pkl`             | Best regression model                 |
+| `rating_preprocessor.pkl`      | Regression preprocessing pipeline     |
+| `visit_mode_model.pkl`         | Best classification model             |
+| `visit_mode_preprocessor.pkl`  | Classification preprocessing pipeline |
+| `visit_mode_label_encoder.pkl` | Label decoding                        |
+| `recommender.pkl`              | Recommendation logic                  |
+| `item_similarity_df.pkl`       | Item similarity matrix                |
+| `user_item_matrix.pkl`         | User-item interaction matrix          |
+
+---
+
+# 📈 Streamlit Dashboard Pages
+
+## 🏠 Home
+
+* Project overview
+* KPI cards
+* Business insights
+
+## ⭐ Rating Prediction
 
 Predict expected attraction rating.
 
-🧳 Visit Mode Prediction
+## 🧳 Visit Mode Prediction
 
 Predict trip type.
 
-🎯 Recommendation System
+## 🎯 Recommendations
 
-Suggest similar attractions.
+Generate personalized attraction recommendations.
 
-📊 Data Explorer
+## 📂 Data Explorer
 
-Explore dataset interactively.
+Browse and analyze processed data.
 
-🏆 Model Performance
+## 📊 Model Performance
 
-Display metrics, comparisons, and feature importance.
+Visualize regression and classification metrics.
 
-ℹ️ About
+## ℹ️ About
 
-Project summary and author information.
+Project details and author information.
 
-🚀 Installation Guide
-1. Clone Repository
+---
+
+# ⚙️ Installation
+
+## 1. Clone Repository
+
+```bash
 git clone https://github.com/your-username/Tourism-Experience-Analytics.git
 cd Tourism-Experience-Analytics
-2. Create Virtual Environment
-Windows
+```
+
+## 2. Create Virtual Environment
+
+### Windows
+
+```bash
 python -m venv venv
 venv\Scripts\activate
-macOS/Linux
+```
+
+### macOS/Linux
+
+```bash
 python3 -m venv venv
 source venv/bin/activate
-3. Install Dependencies
+```
+
+## 3. Install Dependencies
+
+```bash
 pip install -r requirements.txt
-▶️ Run the Application
-Option 1
+```
+
+---
+
+# ▶️ Running the Application
+
+## Option 1
+
+```bash
 python main.py
-Option 2
+```
+
+## Option 2
+
+```bash
 streamlit run app/streamlit_app.py
-📦 requirements.txt
-pandas
-numpy
-matplotlib
-seaborn
-plotly
-scikit-learn
-xgboost
-streamlit
-joblib
-🔄 Execution Workflow
-Run 01_data_loading.ipynb
-Run 02_eda.ipynb
-Run 03_preprocessing.ipynb
-Run 04_regression.ipynb
-Run 05_classification.ipynb
-Run 06_recommendation.ipynb
-Launch Streamlit using python main.py
-📷 Dashboard Screenshots
+```
 
-Add screenshots here after uploading to GitHub.
+---
 
-Home Dashboard
-Rating Prediction
-Visit Mode Prediction
-Recommendation System
-Model Performance
-📌 Business Insights
-Personalized recommendations can increase user engagement.
-Visit mode prediction enables better segmentation.
-Highly rated attractions can be promoted as premium experiences.
-Geographic trends help optimize marketing strategies.
-🔮 Future Enhancements
-Deploy on Streamlit Community Cloud.
-Add user authentication.
-Integrate real-time APIs.
-Use deep learning models.
-Add sentiment analysis of reviews.
-🧪 Example Predictions
-Rating Prediction
+# 📦 Requirements
 
-Input: Paris, Museum, Family, June 2023
-Output: ⭐ 4.47 / 5
+Main libraries used:
 
-Visit Mode Prediction
+* streamlit
+* pandas
+* numpy
+* scikit-learn
+* xgboost
+* plotly
+* matplotlib
+* seaborn
+* joblib
 
-Input: Tokyo, Historical Site
-Output: 🧳 Family
+---
 
-Recommendation
+# 📊 Output Files Generated
 
-Input: Eiffel Tower
-Output: Louvre Museum, Arc de Triomphe, Notre-Dame Cathedral
+* Trained model `.pkl` files
+* Metric `.json` files
+* Comparison `.csv` files
+* Feature importance `.csv`
+* Streamlit dashboard visualizations
 
-👨‍💻 Author
+---
 
-Harsh Kumar
+# 🧠 Business Insights
 
-B.Tech Student | Machine Learning Enthusiast | Data Science Practitioner
+* Personalized recommendations improve user engagement.
+* Visit mode prediction enables targeted marketing.
+* High-rated attractions can be promoted as premium experiences.
+* Geographic insights help optimize regional campaigns.
 
-GitHub: https://github.com/your-username
-LinkedIn: https://www.linkedin.com/in/your-linkedin-profile
-📜 License
+---
 
-This project is developed for academic and portfolio purposes.
+# 🔮 Future Improvements
 
-⭐ Support
+* Hyperparameter tuning with Optuna.
+* Deep learning-based recommendation models.
+* User authentication.
+* Cloud deployment.
+* Real-time data integration.
 
-If you found this project useful:
+---
 
-⭐ Star the repository
-🍴 Fork the project
-📝 Share feedback
-🙏 Acknowledgements
-Scikit-learn
-XGBoost
-Streamlit
-Plotly
-Open-source Python community
+# 👨‍💻 Author
 
-Built with Python, Machine Learning, and Streamlit to deliver a complete Tourism Experience Analytics solution.
+**Harsh Kumar**
+
+B.Tech Project: Tourism Experience Analytics
+
+---
+
+# ⭐ GitHub Repository
+
+If you found this project useful, consider giving it a star.
+
+---
+
+# 📄 License
+
+This project is for educational and portfolio purposes.
+
