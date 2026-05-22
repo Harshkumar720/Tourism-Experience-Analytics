@@ -1,0 +1,3 @@
+Task,Best Model,Primary Metric,Score
+Regression,XGBoost,R2 Score,0.09929114580154419
+Classification,Random Forest,F1 Score,0.41322959761586087

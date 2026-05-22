@@ -1,0 +1,206 @@
+Feature,Importance
+cat__AttractionType_Water Parks,0.16117588
+cat__AttractionType_Historic Sites,0.07416344
+cat__AttractionType_Beaches,0.03869838
+cat__CityName_N'Djamena,0.02354859
+cat__Region_South Asia,0.020793395
+cat__Country_Indonesia,0.020411063
+cat__AttractionType_Flea & Street Markets,0.019481808
+cat__Region_Northern America,0.019231666
+cat__AttractionType_Waterfalls,0.016060436
+cat__Continent_Europe,0.014637914
+cat__Country_India,0.01446063
+cat__Country_Netherlands,0.012500628
+cat__Country_New Zealand,0.01195541
+cat__AttractionType_National Parks,0.011242372
+cat__AttractionType_Caverns & Caves,0.010293443
+cat__Region_South East Asia,0.0100839175
+cat__Region_Northern Europe,0.008699771
+cat__Country_Brazil,0.008641985
+cat__AttractionType_Nature & Wildlife Areas,0.008515334
+cat__Continent_America,0.008467391
+cat__Country_Portugal,0.008413294
+cat__AttractionType_History Museums,0.0084028365
+cat__Country_Bangladesh,0.008230611
+cat__Region_Australia,0.007896343
+cat__Region_Oceania,0.007277931
+cat__Continent_Asia,0.0071373554
+cat__CityName_South Region,0.007015887
+cat__Country_Oman,0.006803548
+cat__Region_South America,0.0067820014
+cat__Country_Czech Republic,0.006703916
+cat__Region_Western Europe,0.006674432
+cat__Country_Malaysia,0.006609211
+cat__Country_Singapore,0.0065180426
+cat__Country_United Kingdom,0.006468026
+cat__Country_Spain,0.006438492
+cat__Region_Middle East,0.006345939
+cat__Country_Poland,0.006208152
+cat__Country_Ukraine,0.0061820666
+cat__VisitMode_1,0.0059866924
+cat__Country_Cyprus,0.0059275134
+cat__Region_Southern Africa,0.005878036
+cat__Country_Philippines,0.005863509
+cat__Country_Canada,0.00584258
+cat__Country_Sri Lanka,0.005804246
+cat__Country_Denmark,0.0057106456
+cat__AttractionType_Religious Sites,0.0057031517
+cat__Country_South Korea,0.005702366
+cat__Country_Belgium,0.00569208
+cat__Country_Luxembourg,0.005690809
+cat__Country_Turkey,0.0056735775
+cat__Country_Switzerland,0.0056151515
+cat__Country_Cambodia,0.0055689323
+cat__Country_Georgia,0.0054670293
+cat__Country_Slovakia,0.0054416726
+cat__Country_Nepal,0.0054058107
+num__VisitMonth,0.0053640315
+cat__Country_Ireland,0.0053323656
+cat__Region_Southern Europe,0.005325481
+cat__AttractionType_Volcanos,0.005293301
+cat__Continent_Africa,0.005246848
+cat__Country_Egypt,0.005227254
+cat__Region_Eastern Europe,0.0051963255
+cat__Country_Bahrain,0.005179896
+cat__Country_Bulgaria,0.005158354
+cat__AttractionType_Spas,0.005073325
+cat__Country_Slovenia,0.004892102
+cat__Country_Estonia,0.0048068985
+cat__Country_Germany,0.0047916067
+cat__Country_Russia,0.0047090915
+num__VisitYear,0.0046475804
+cat__Country_Croatia,0.0046328283
+cat__Country_Greece,0.004604061
+cat__Country_Pakistan,0.0045998273
+cat__Region_North Africa,0.004576485
+cat__Country_Argentina,0.004532294
+cat__Country_Serbia,0.0044899187
+cat__Country_Thailand,0.0044278833
+cat__Country_Angola,0.004425627
+cat__Country_Finland,0.0043011927
+cat__AttractionType_Points of Interest & Landmarks,0.0042730966
+cat__Country_Europe,0.004268393
+cat__Country_New Caledonia,0.0042216806
+cat__Country_Austria,0.004101393
+cat__Country_United States,0.004090622
+cat__VisitMode_3,0.0039778585
+cat__AttractionType_Ballets,0.0038102102
+cat__Country_Saudi Arabia,0.0037005106
+cat__CityName_Douala,0.003665862
+cat__Country_France,0.0036636898
+cat__Country_Romania,0.0035885866
+cat__VisitMode_5,0.0035826673
+cat__Country_Vanuatu,0.0035727934
+cat__Country_Bosnia and Herzegovina,0.0034978457
+cat__Country_China,0.0033884186
+cat__Country_Fiji,0.0033833007
+cat__VisitMode_4,0.0033508048
+cat__VisitMode_2,0.0033356156
+cat__Country_Maldives,0.0032159064
+cat__Country_United Arab Emirates,0.0031211984
+cat__Country_Japan,0.0031021703
+cat__Country_Mexico,0.0030516088
+cat__Continent_Australia & Oceania,0.0030210817
+cat__Country_Hungary,0.0029851873
+cat__Country_Vietnam,0.0028703506
+cat__Country_Qatar,0.0028478464
+cat__Region_Central America,0.0027257937
+cat__Country_Norway,0.0026946303
+cat__Country_Panama,0.0025507486
+cat__Country_Laos,0.002496994
+cat__Country_Cuba,0.0024312567
+cat__Country_Botswana,0.0022692329
+cat__Region_Central Europe,0.0022668976
+cat__Country_Senegal,0.0022497117
+cat__Country_Colombia,0.0022238197
+cat__AttractionType_Neighborhoods,0.0021493284
+cat__Country_Mariana Islands,0.0021317652
+cat__Country_Monaco,0.00206595
+cat__Region_Central Asia,0.001989006
+cat__Country_Puerto Rico,0.0018316031
+cat__Country_Sweden,0.0018043667
+cat__Region_-,0.0017914904
+cat__AttractionType_Ancient Ruins,0.0017346778
+cat__Country_Belarus,0.0017326291
+cat__Country_Iceland,0.0017070037
+cat__Region_West Africa,0.0016728207
+cat__Country_Trinidad and Tobago,0.0015934332
+cat__Region_East Asia,0.0015664808
+cat__Country_Curacao,0.0015103767
+cat__Country_Zambia,0.0014188016
+cat__Region_Caribbean,0.0013472285
+cat__Country_East Timor,0.0013375052
+cat__AttractionType_Speciality Museums,0.0013188338
+cat__Country_Iran,0.0010226424
+cat__Country_Jordan,0.0007588672
+cat__Region_East Africa,0.00049039186
+cat__Country_NIGERIA,0.00044713714
+cat__Country_Australia,0.0
+cat__Region_Central Africa,0.0
+cat__Country_Asia,0.0
+cat__Country_Armenia,0.0
+cat__Country_Albania,0.0
+cat__Country_Ecuador,0.0
+cat__Country_Dominican Republic,0.0
+cat__Country_Costa Rica,0.0
+cat__Country_Bhutan,0.0
+cat__Country_Cape Verde,0.0
+cat__Country_Cameroon,0.0
+cat__Country_Chile,0.0
+cat__Country_Chad,0.0
+cat__Country_Burkina Faso,0.0
+cat__Country_Brunei Darussalam,0.0
+cat__Country_Bolivia,0.0
+cat__Country_Algeria,0.0
+cat__Country_Afghanistan,0.0
+cat__Country_Azerbaijan,0.0
+cat__Country_Bahamas,0.0
+cat__Country_Barbados,0.0
+cat__Country_Iraq,0.0
+cat__Country_Hong Kong,0.0
+cat__Country_Guatemala,0.0
+cat__Country_French Polynesia,0.0
+cat__Country_Ghana,0.0
+cat__Country_Jamaica,0.0
+cat__Country_Italy,0.0
+cat__Country_Israel,0.0
+cat__Country_Kuwait,0.0
+cat__Country_Kenya,0.0
+cat__Country_Kazakhstan,0.0
+cat__Country_Kyrgyzstan,0.0
+cat__Country_Lebanon,0.0
+cat__Country_Latvia,0.0
+cat__Country_Lithuania,0.0
+cat__Country_Libya,0.0
+cat__Country_Papua New Guinea,0.0
+cat__Country_Peru,0.0
+cat__Country_Nicaragua,0.0
+cat__Country_Palestine,0.0
+cat__Country_Mozambique,0.0
+cat__Country_Morocco,0.0
+cat__Country_Marshall Islands,0.0
+cat__Country_Malta,0.0
+cat__Country_Moldova,0.0
+cat__Country_Mauritius,0.0
+cat__Country_Mongolia,0.0
+cat__Country_Montenegro,0.0
+cat__Country_Myanmar,0.0
+cat__Country_Namibia,0.0
+cat__Country_Grand Cayman,0.0
+cat__Country_Honduras,0.0
+cat__Country_Turks and Caicos Islands,0.0
+cat__Country_Tunisia,0.0
+cat__Country_Uganda,0.0
+cat__Country_Tonga,0.0
+cat__Country_Taiwan,0.0
+cat__Country_Sudan,0.0
+cat__Country_Tanzania,0.0
+cat__Country_St Martin / St Maarten,0.0
+cat__Country_Seychelles,0.0
+cat__Country_Rwanda,0.0
+cat__Country_South Africa,0.0
+cat__Country_Republic of North Macedonia,0.0
+cat__Country_Uruguay,0.0
+cat__Country_Uzbekistan,0.0
+cat__Country_Yemen,0.0
+cat__Country_Zimbabwe,0.0
